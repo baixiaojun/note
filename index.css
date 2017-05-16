@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background:	#7FFFD4;
+    text-align: center;
+    line-height: 70px;
+    color: bisque;
+    font-size: 30px;
+}
+.contents{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid lightseagreen;
+    position: relative;
+    margin-top: 20px;
+}
+.note{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+
+}
+.contents .active{
+    z-index: 88;
+    box-shadow:1px 1px 5px rgba(0,0,0,1);
+}
+.title{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.aquamarine .title{
+    background: aquamarine ;
+}
+.aquamarine {
+    border: 1px solid aquamarine ;
+}
+.blue .title{
+    background: blue;
+}
+.blue{
+    border: 1px solid blue;
+}.deeppink .title{
+     background: deeppink;
+ }
+.deeppink{
+    border: 1px solid deeppink;
+}
+.orangered .title{
+     background: orangered;
+ }
+.orangered{
+    border: 1px solid orangered;
+}
+.content textarea{
+    width: 100%;
+    min-height: 200px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 10px;
+}
+ .close{
+    width: 20px;
+    height: 20px;
+    border-radius:20px;
+    background: #aaaaaa;
+     position: absolute;
+     top:15px;
+     right:10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+
+
